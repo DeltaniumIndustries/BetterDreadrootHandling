@@ -1,0 +1,8 @@
+{
+  "WorkshopId": 3437671243,
+  "Title": "Better Dreadroot Handling",
+  "Description": "Better Dreadroot Handling\r\n\r\nTired of Dreadroots being dull? \r\nThis mod enhances how Dreadroots behave in Caves of Qud, giving you more control over their interactions in the world!\r\n\r\nConfigurable Options:\r\n - Make Dreadroots Solid: No more walking through them like ghosts.\r\n - Make Dreadroots Hostile: This makes you attack them when auto exploring, I think?..\r\n - Automatically Update Old Dreadroots: No need to start a new game — existing Dreadroots get updated dynamically.\r\n\r\nBecause the wiki suggests Tag removal is broken, also removes “ExcludeFromHostiles” Tag.\r\n\r\nHow It Works:\r\n\r\n    The mod automatically detects Dreadroot GameObjects and applies the desired changes.\r\n    Custom logging (optional) provides debug messages in the console for transparency.\r\n    Optimized to refresh settings periodically without unnecessary performance impact.\r\n\r\nShould be fully compatible with existing saves.\r\n\r\n💬 Feedback, bug reports, and suggestions are always welcome!\r\nEnjoy a more immersive Dreadroot experience. 🌱✨",
+  "Tags": "QOL, Dreadroot, Enemy, Fix",
+  "Visibility": "2",
+  "ImagePath": "preview.png"
+}

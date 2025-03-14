@@ -1,0 +1,10 @@
+{
+    "id": "BetterDreadrootHandling",
+    "loadorder": 1,
+    "title": "{{patchwork|Better Dreadroot Handling}}",
+    "description": "Death to the root cause. Probably super hacky, but configurable.",
+    "tags": "QOL, Dreadroot, Enemy, Fix",
+    "version": "1.0",
+    "author": "{{glotrot|LunarLaurus}}",
+    "previewImage": "preview.png"
+}

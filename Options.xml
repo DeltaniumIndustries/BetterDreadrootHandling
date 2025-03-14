@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+    <option ID="OptionDreadrootEnabled" DisplayText="Dreadroots: Enabled?" Category="LaurusMods" Type="Checkbox" Default="Yes" />
+    <option ID="OptionDreadrootLogging" DisplayText="Dreadroots: Debug logging?" Category="LaurusMods" Type="Checkbox" Default="No" Requires="OptionDreadrootEnabled==Yes" />
+    <option ID="OptionDreadrootSolid" DisplayText="Dreadroots: Solid? (Will block pathing)" Category="LaurusMods" Type="Checkbox" Default="Yes" Requires="OptionDreadrootEnabled==Yes" />
+    <option ID="OptionDreadrootHostile" DisplayText="Dreadroots: Hostile? (Will make you attack them when auto-exploring)" Category="LaurusMods" Type="Checkbox" Default="Yes" Requires="OptionDreadrootEnabled==Yes" />
+    <option ID="OptionDreadrootUpdateOld" DisplayText="Dreadroots: Update existing objects?" Category="LaurusMods" Type="Checkbox" Default="No" Requires="OptionDreadrootEnabled==Yes" />
+</options>
