@@ -33,7 +33,7 @@ namespace XRL.World.Parts
         }
 
         public override bool WantEvent(int ID, int cascade) =>
-            base.WantEvent(ID, cascade) || ID == AfterObjectCreatedEvent.ID || ID == EnteredCellEvent.ID;
+            base.WantEvent(ID, cascade) || ID == AfterObjectCreatedEvent.ID || ID == EnteredCellEvent.ID || ID == CheckAttackableEvent.ID;
 
         public override bool HandleEvent(EnteredCellEvent E)
         {
@@ -52,6 +52,11 @@ namespace XRL.World.Parts
             }
 
             return base.HandleEvent(E);
+        }
+
+        public override bool HandleEvent(CheckAttackableEvent E)
+        {
+            return true;
         }
 
         public override bool HandleEvent(AfterObjectCreatedEvent E)
