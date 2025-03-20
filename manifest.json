@@ -1,6 +1,6 @@
 {
     "id": "BetterDreadrootHandling",
-    "loadorder": 1,
+    "loadorder": 10,
     "title": "{{patchwork|Better Dreadroot Handling}}",
     "description": "Death to the root cause. Probably super hacky, but configurable.",
     "tags": "QOL, Dreadroot, Enemy, Fix",
